@@ -1,0 +1,9 @@
+resolver: lts-10.3
+packages:
+  - .
+extra-deps:
+  - rocksdb-haskell-1.0.1
+  - cborg-0.2.0.0
+  - cborg-json-0.2.0.0
+  - serialise-0.2.0.0
+  - batch-0.1.0.0

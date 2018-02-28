@@ -1,0 +1,54 @@
+name:                superlevel
+version:             0.1.0.0
+github:              "agrafix/superlevel"
+license:             BSD3
+author:              "Alexander Thiemann"
+maintainer:          "mail@athiemann.net"
+copyright:           "2017 Alexander Thiemann <mail@athiemann.net>"
+
+extra-source-files:
+  - README.md
+  - ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on Github at <https://github.com/agrafix/superlevel#readme>
+
+dependencies:
+  - base >= 4.7 && < 5
+  - containers
+  - time
+  - rocksdb-haskell
+
+library:
+  source-dirs: src
+  dependencies:
+    - text
+    - cborg
+    - cborg-json
+    - serialise
+    - batch
+    - timespan
+    - bytestring
+    - aeson
+    - mtl
+    - resourcet
+
+tests:
+  superlevel-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - superlevel
+      - hspec
+      - temporary
+      - QuickCheck
