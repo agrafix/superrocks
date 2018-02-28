@@ -4,7 +4,7 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE StrictData #-}
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.Internal.MultiTableSpec
+module SuperRocks.Internal.MultiTableSpec
     ( MultiTableSpec(..)
     , MultiTableHandle(..), getMultiTableHandle
     , multiTablePut
@@ -13,10 +13,10 @@ module SuperLevel.Internal.MultiTableSpec
     )
 where
 
-import SuperLevel.Codec.AscWord
-import SuperLevel.Codec.Types
-import SuperLevel.Internal.TableSpec
-import SuperLevel.Internal.Types
+import SuperRocks.Codec.AscWord
+import SuperRocks.Codec.Types
+import SuperRocks.Internal.TableSpec
+import SuperRocks.Internal.Types
 
 import Control.Monad.Trans
 import Control.Monad.Trans.Resource

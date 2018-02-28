@@ -1,9 +1,9 @@
-module SuperLevel.Codec.AscTime
+module SuperRocks.Codec.AscTime
     ( ascTimeRepr )
 where
 
-import SuperLevel.Codec.AscWord
-import SuperLevel.Codec.Types
+import SuperRocks.Codec.AscWord
+import SuperRocks.Codec.Types
 
 import Data.Bifunctor
 import Data.Time

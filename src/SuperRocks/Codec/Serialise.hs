@@ -1,8 +1,8 @@
-module SuperLevel.Codec.Serialise
+module SuperRocks.Codec.Serialise
     ( serialiseRepr )
 where
 
-import SuperLevel.Codec.Types
+import SuperRocks.Codec.Types
 
 import Codec.Serialise
 import Data.Bifunctor

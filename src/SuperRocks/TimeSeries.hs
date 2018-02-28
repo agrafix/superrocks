@@ -1,7 +1,7 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE StrictData #-}
-module SuperLevel.TimeSeries
+module SuperRocks.TimeSeries
     ( TimeSeriesTable(..)
     , TimeSeriesHandle
     , getTimeSeriesHandle
@@ -11,11 +11,11 @@ module SuperLevel.TimeSeries
     )
 where
 
-import SuperLevel.Codec.AscTime
-import SuperLevel.Codec.Types
-import SuperLevel.Internal.MultiTableSpec
-import SuperLevel.Internal.TableSpec
-import SuperLevel.Internal.Types
+import SuperRocks.Codec.AscTime
+import SuperRocks.Codec.Types
+import SuperRocks.Internal.MultiTableSpec
+import SuperRocks.Internal.TableSpec
+import SuperRocks.Internal.Types
 
 import Control.Batch
 import Control.Monad.Trans

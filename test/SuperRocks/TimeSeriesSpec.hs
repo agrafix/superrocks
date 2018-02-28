@@ -1,10 +1,10 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.TimeSeriesSpec (spec) where
+module SuperRocks.TimeSeriesSpec (spec) where
 
-import SuperLevel.Codec.Serialise
-import SuperLevel.Internal.Types
-import SuperLevel.TimeSeries
+import SuperRocks.Codec.Serialise
+import SuperRocks.Internal.Types
+import SuperRocks.TimeSeries
 
 import Data.Time.Clock.POSIX
 import System.IO.Temp

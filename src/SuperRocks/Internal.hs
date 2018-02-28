@@ -1,6 +1,6 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE StrictData #-}
-module SuperLevel.Internal
+module SuperRocks.Internal
     ( Connection, withConnection
     , ReadResult(..)
     , TableSpec(..)
@@ -15,6 +15,6 @@ module SuperLevel.Internal
     )
 where
 
-import SuperLevel.Internal.MultiTableSpec
-import SuperLevel.Internal.TableSpec
-import SuperLevel.Internal.Types
+import SuperRocks.Internal.MultiTableSpec
+import SuperRocks.Internal.TableSpec
+import SuperRocks.Internal.Types

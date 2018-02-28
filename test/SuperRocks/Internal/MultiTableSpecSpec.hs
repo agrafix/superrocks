@@ -1,10 +1,10 @@
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.Internal.MultiTableSpecSpec (spec) where
+module SuperRocks.Internal.MultiTableSpecSpec (spec) where
 
-import SuperLevel.Codec.Serialise
-import SuperLevel.Internal.MultiTableSpec
-import SuperLevel.Internal.TableSpec
-import SuperLevel.Internal.Types
+import SuperRocks.Codec.Serialise
+import SuperRocks.Internal.MultiTableSpec
+import SuperRocks.Internal.TableSpec
+import SuperRocks.Internal.Types
 import Control.Monad
 
 import Data.Monoid

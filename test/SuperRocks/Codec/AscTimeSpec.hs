@@ -1,9 +1,9 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.Codec.AscTimeSpec (spec) where
+module SuperRocks.Codec.AscTimeSpec (spec) where
 
-import SuperLevel.Codec.AscTime
-import SuperLevel.Codec.Types
+import SuperRocks.Codec.AscTime
+import SuperRocks.Codec.Types
 
 import Data.Time
 import Test.Hspec

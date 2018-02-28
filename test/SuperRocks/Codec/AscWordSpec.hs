@@ -1,8 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.Codec.AscWordSpec (spec) where
+module SuperRocks.Codec.AscWordSpec (spec) where
 
-import SuperLevel.Codec.AscWord
-import SuperLevel.Codec.Types
+import SuperRocks.Codec.AscWord
+import SuperRocks.Codec.Types
 
 
 import Test.Hspec

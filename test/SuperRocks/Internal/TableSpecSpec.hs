@@ -1,10 +1,10 @@
 {-# LANGUAGE ViewPatterns #-}
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.Internal.TableSpecSpec (spec) where
+module SuperRocks.Internal.TableSpecSpec (spec) where
 
-import SuperLevel.Codec.Serialise
-import SuperLevel.Internal.TableSpec
-import SuperLevel.Internal.Types
+import SuperRocks.Codec.Serialise
+import SuperRocks.Internal.TableSpec
+import SuperRocks.Internal.Types
 
 import Data.List
 import System.IO.Temp

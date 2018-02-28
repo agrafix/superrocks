@@ -2,13 +2,13 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 690ba4f5f3b42a78432bac3ab7faa9006034b47f1c9a6efa87be1e9d6e69d888
+-- hash: 07910558fc4c451f7fbbc7dca3fff5200b6b620f09b40884e03db501728ac2fe
 
-name:           superlevel
+name:           superrocks
 version:        0.1.0.0
-description:    Please see the README on Github at <https://github.com/agrafix/superlevel#readme>
-homepage:       https://github.com/agrafix/superlevel#readme
-bug-reports:    https://github.com/agrafix/superlevel/issues
+description:    Please see the README on Github at <https://github.com/agrafix/superrocks#readme>
+homepage:       https://github.com/agrafix/superrocks#readme
+bug-reports:    https://github.com/agrafix/superrocks/issues
 author:         Alexander Thiemann
 maintainer:     mail@athiemann.net
 copyright:      2017 Alexander Thiemann <mail@athiemann.net>
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/agrafix/superlevel
+  location: https://github.com/agrafix/superrocks
 
 library
   hs-source-dirs:
@@ -44,21 +44,21 @@ library
     , time
     , timespan
   exposed-modules:
-      SuperLevel.Codec.AscTime
-      SuperLevel.Codec.AscWord
-      SuperLevel.Codec.Json
-      SuperLevel.Codec.Serialise
-      SuperLevel.Codec.Types
-      SuperLevel.Internal
-      SuperLevel.Internal.MultiTableSpec
-      SuperLevel.Internal.TableSpec
-      SuperLevel.Internal.Types
-      SuperLevel.TimeSeries
+      SuperRocks.Codec.AscTime
+      SuperRocks.Codec.AscWord
+      SuperRocks.Codec.Json
+      SuperRocks.Codec.Serialise
+      SuperRocks.Codec.Types
+      SuperRocks.Internal
+      SuperRocks.Internal.MultiTableSpec
+      SuperRocks.Internal.TableSpec
+      SuperRocks.Internal.Types
+      SuperRocks.TimeSeries
   other-modules:
-      Paths_superlevel
+      Paths_superrocks
   default-language: Haskell2010
 
-test-suite superlevel-test
+test-suite superrocks-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   hs-source-dirs:
@@ -70,14 +70,14 @@ test-suite superlevel-test
     , containers
     , hspec
     , rocksdb-haskell
-    , superlevel
+    , superrocks
     , temporary
     , time
   other-modules:
-      SuperLevel.Codec.AscTimeSpec
-      SuperLevel.Codec.AscWordSpec
-      SuperLevel.Internal.MultiTableSpecSpec
-      SuperLevel.Internal.TableSpecSpec
-      SuperLevel.TimeSeriesSpec
-      Paths_superlevel
+      SuperRocks.Codec.AscTimeSpec
+      SuperRocks.Codec.AscWordSpec
+      SuperRocks.Internal.MultiTableSpecSpec
+      SuperRocks.Internal.TableSpecSpec
+      SuperRocks.TimeSeriesSpec
+      Paths_superrocks
   default-language: Haskell2010

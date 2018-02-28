@@ -1,9 +1,9 @@
-module SuperLevel.Codec.AscWord
+module SuperRocks.Codec.AscWord
     ( ascWordRepr )
 where
 
-import SuperLevel.Codec.Serialise
-import SuperLevel.Codec.Types
+import SuperRocks.Codec.Serialise
+import SuperRocks.Codec.Types
 
 import Data.Monoid
 import Data.Word

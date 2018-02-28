@@ -1,8 +1,8 @@
-module SuperLevel.Codec.Json
+module SuperRocks.Codec.Json
     ( jsonRepr, jsonCborRepr )
 where
 
-import SuperLevel.Codec.Types
+import SuperRocks.Codec.Types
 
 import Codec.CBOR.JSON
 import Codec.CBOR.Read

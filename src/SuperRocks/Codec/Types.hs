@@ -1,6 +1,6 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE StrictData #-}
-module SuperLevel.Codec.Types
+module SuperRocks.Codec.Types
     ( BinRepr(..), byteRepr
     , eitherToFail
     )

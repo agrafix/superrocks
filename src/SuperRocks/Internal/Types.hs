@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveFunctor #-}
 {-# LANGUAGE StrictData #-}
-module SuperLevel.Internal.Types
+module SuperRocks.Internal.Types
     ( Connection(..)
     , withConnection
     , ReadResult(..)

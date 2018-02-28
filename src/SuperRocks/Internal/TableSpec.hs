@@ -3,7 +3,7 @@
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE StrictData #-}
 {-# LANGUAGE OverloadedStrings #-}
-module SuperLevel.Internal.TableSpec
+module SuperRocks.Internal.TableSpec
     ( TableSpec(..)
     , tableBatch, TableBatchOp(..)
     , putTable, getTable
@@ -11,8 +11,8 @@ module SuperLevel.Internal.TableSpec
     )
 where
 
-import SuperLevel.Codec.Types
-import SuperLevel.Internal.Types
+import SuperRocks.Codec.Types
+import SuperRocks.Internal.Types
 
 import Control.Monad.Trans
 import Control.Monad.Trans.Resource

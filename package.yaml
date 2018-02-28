@@ -1,6 +1,6 @@
-name:                superlevel
+name:                superrocks
 version:             0.1.0.0
-github:              "agrafix/superlevel"
+github:              "agrafix/superrocks"
 license:             BSD3
 author:              "Alexander Thiemann"
 maintainer:          "mail@athiemann.net"
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on Github at <https://github.com/agrafix/superlevel#readme>
+description:         Please see the README on Github at <https://github.com/agrafix/superrocks#readme>
 
 dependencies:
   - base >= 4.7 && < 5
@@ -40,7 +40,7 @@ library:
     - resourcet
 
 tests:
-  superlevel-test:
+  superrocks-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -48,7 +48,7 @@ tests:
       - -rtsopts
       - -with-rtsopts=-N
     dependencies:
-      - superlevel
+      - superrocks
       - hspec
       - temporary
       - QuickCheck
