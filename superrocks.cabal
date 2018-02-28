@@ -2,16 +2,18 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 07910558fc4c451f7fbbc7dca3fff5200b6b620f09b40884e03db501728ac2fe
+-- hash: b38f934e4f0aa78dd7b76600405aa034078d74657c695bfe445d9a4fd51d32e8
 
 name:           superrocks
 version:        0.1.0.0
-description:    Please see the README on Github at <https://github.com/agrafix/superrocks#readme>
+synopsis:       A high level interface to RocksDB
+description:    Various high level interfaces for reading and writing data to RocksDB.
+category:       Data
 homepage:       https://github.com/agrafix/superrocks#readme
 bug-reports:    https://github.com/agrafix/superrocks/issues
 author:         Alexander Thiemann
 maintainer:     mail@athiemann.net
-copyright:      2017 Alexander Thiemann <mail@athiemann.net>
+copyright:      2018 Alexander Thiemann <mail@athiemann.net>
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple

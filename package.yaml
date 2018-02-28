@@ -4,20 +4,15 @@ github:              "agrafix/superrocks"
 license:             BSD3
 author:              "Alexander Thiemann"
 maintainer:          "mail@athiemann.net"
-copyright:           "2017 Alexander Thiemann <mail@athiemann.net>"
+copyright:           "2018 Alexander Thiemann <mail@athiemann.net>"
 
 extra-source-files:
   - README.md
   - ChangeLog.md
 
-# Metadata used when publishing your package
-# synopsis:            Short description of your package
-# category:            Web
-
-# To avoid duplicated efforts in documentation and dealing with the
-# complications of embedding Haddock markup inside cabal files, it is
-# common to point users to the README.md file.
-description:         Please see the README on Github at <https://github.com/agrafix/superrocks#readme>
+synopsis:            A high level interface to RocksDB
+category:            Data
+description:         Various high level interfaces for reading and writing data to RocksDB.
 
 dependencies:
   - base >= 4.7 && < 5
