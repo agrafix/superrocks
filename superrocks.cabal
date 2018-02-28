@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b38f934e4f0aa78dd7b76600405aa034078d74657c695bfe445d9a4fd51d32e8
+-- hash: a2a7726355f04d704500713af9fa03fd991b6e6244f67dac33245e8ecd84d475
 
 name:           superrocks
 version:        0.1.0.0
@@ -31,20 +31,20 @@ library
   hs-source-dirs:
       src
   build-depends:
-      aeson
+      aeson >=1.2
     , base >=4.7 && <5
-    , batch
-    , bytestring
-    , cborg
-    , cborg-json
-    , containers
-    , mtl
-    , resourcet
-    , rocksdb-haskell
-    , serialise
-    , text
-    , time
-    , timespan
+    , batch >=0.1
+    , bytestring >=0.10
+    , cborg >=0.2
+    , cborg-json >=0.2
+    , containers >=0.5
+    , mtl >=2.2
+    , resourcet >=1.1
+    , rocksdb-haskell >=1.0.1
+    , serialise >=0.2
+    , text >=1.2
+    , time >=1.8
+    , timespan >=0.3
   exposed-modules:
       SuperRocks.Codec.AscTime
       SuperRocks.Codec.AscWord
@@ -69,12 +69,12 @@ test-suite superrocks-test
   build-depends:
       QuickCheck
     , base >=4.7 && <5
-    , containers
+    , containers >=0.5
     , hspec
-    , rocksdb-haskell
+    , rocksdb-haskell >=1.0.1
     , superrocks
     , temporary
-    , time
+    , time >=1.8
   other-modules:
       SuperRocks.Codec.AscTimeSpec
       SuperRocks.Codec.AscWordSpec

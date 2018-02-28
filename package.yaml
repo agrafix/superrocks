@@ -16,23 +16,23 @@ description:         Various high level interfaces for reading and writing data 
 
 dependencies:
   - base >= 4.7 && < 5
-  - containers
-  - time
-  - rocksdb-haskell
+  - containers >= 0.5
+  - time >= 1.8
+  - rocksdb-haskell >= 1.0.1
 
 library:
   source-dirs: src
   dependencies:
-    - text
-    - cborg
-    - cborg-json
-    - serialise
-    - batch
-    - timespan
-    - bytestring
-    - aeson
-    - mtl
-    - resourcet
+    - text >= 1.2
+    - cborg >= 0.2
+    - cborg-json >= 0.2
+    - serialise >= 0.2
+    - batch >= 0.1
+    - timespan >= 0.3
+    - bytestring >= 0.10
+    - aeson >= 1.2
+    - mtl >= 2.2
+    - resourcet >= 1.1
 
 tests:
   superrocks-test:
